@@ -9,7 +9,7 @@ export const initSolaceClient = () => {
         solace.SolclientFactory.init(factoryProps);
 
         const sessionProperties = new solace.SessionProperties({
-            url: 'wss://mr-connection-s2or6apnkae.messaging.solace.cloud:443',
+            url: 'wss://mr-connection:443',
             vpnName: '<my-vpn-name>',
             userName: '<my-username>',
             password: '<my-password>',
